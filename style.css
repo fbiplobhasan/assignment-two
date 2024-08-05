@@ -136,8 +136,9 @@ banner-text, h1{
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0px;
-    text-align: left;
+    text-align: center;
     border: none;
+    cursor: pointer;
 }
 
 .banner-btn-2{
@@ -227,12 +228,16 @@ color: rgb(255, 255, 255);
     width:671px ;
     height: 120px;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
     
 }
 
 .text-container-p{
-    color: black;
+    color: white;
     text-align: center;
 }
 
@@ -314,8 +319,10 @@ run-text-container,p{
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0px;
+    border: none;
 }
 /* End run section here */
+/* Start training section here */
 
 .Training-section-parent{
     max-width: 1060px;
@@ -446,3 +453,194 @@ position: relative;
 }
 
 /* End training section here */
+/* Star bmi section here */
+
+
+#bmi-calculator-chart{
+    width: 1440px;
+    height: 487px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 175px;
+    background: rgb(34, 34, 34);
+}
+
+#bmi-calculate{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.bmi-calculate, h2{
+    text-align: left;
+    color: white;
+    margin: 14px 0px;
+    font-size: large;
+    font-weight: 800;
+}
+.bmi-calculate, p{
+    text-align: left;
+    color: aliceblue;
+}
+
+.chart-right-side{
+    width: 577px;
+    height: 385px;
+    margin-top: 100px;
+    margin-right: 180px;
+}
+
+.chart-left-side{
+    margin-top: 100px;
+    margin-left: 190px;
+}
+.chart-left-side h2{
+    text-align: left;
+    color: aliceblue;
+    margin: 14px 0px;
+    font-size: large;
+    font-weight: 800;
+}
+
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 0.5px solid white;
+    padding: 5px 10px ;
+    color: white;
+}
+
+.bmi-all-input{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 15px;
+    border-radius: 8px;
+    
+}
+
+.chart-input{
+    width: 222px;
+    height: 24px;
+    padding: 12px 40px 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.chart-option{
+    width: 537px;
+    height: 24px;
+    padding: 12px 20px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* End bmi section here */
+/* Start team section here */
+
+.team-text-container{
+
+    width: 671px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team-img-parent{
+    width: 1060px;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   
+}
+
+.team-img{
+ position: relative;
+}
+
+.team-img-parent img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+
+}
+#team-h5{
+   color:rgb(255, 255, 255) ; 
+    font-size:20px;
+    font-weight: 500;
+    left: 20%;
+    top: 80%;
+    transform: translate: (-50%, -50%);
+    position: absolute;
+}
+#team-p{
+   color:rgb(156, 144, 144) ; 
+    font-size:10px;
+    font-weight: 500;
+    line-height: 50px;
+    left: 20%;
+    top: 80%;
+    transform: translate: (-50%, -50%);
+    position: absolute;
+}
+/* End team section here */
+/* Start footer section here */
+
+#footer-section-parent{
+    width: 1440px;
+    height: 490px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-sub-parent{
+    width: 1060px;
+    height: 300px; 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    padding: 70px;
+    /* margin: 66px 191px 177px 190px; */
+}
+
+.div-1{
+    width: 443px;
+    height: 176px;
+}
+.div-2{
+    width: 181px;
+    height: 249px;
+}
+.div-3{
+    width: 181px;
+    height: 249px;
+}
+
+.horaizontal-rule{
+    width: 1059px;
+    margin: 0 auto;
+}
+
+.footer-copyright{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px 50px 15px;
+
+}
+
+/* End footer section here */
